@@ -1,28 +1,29 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiFillInstagram} from "react-icons/ai"
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://linkedin.com",
-      style: "rounded-tr-md",
-    },
+    // {
+    //   id: 1,
+    //   child: (
+    //     <>
+    //       LinkedIn <FaLinkedin size={30} />
+    //     </>
+    //   ),
+    //   href: "https://linkedin.com",
+    //   style: "rounded-tr-md",
+    // },
     {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          Instagram <AiFillInstagram size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://www.instagram.com/maan__778",
     },
     {
       id: 3,
@@ -31,7 +32,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: " mailto:iammanvendra0101@gmail.com",
     },
     {
       id: 4,
